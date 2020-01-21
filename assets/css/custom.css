@@ -1,0 +1,219 @@
+/*	==================================================
+	Chart
+	================================================== */
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+/*	==================================================
+	Progress & Meter
+	================================================== */
+meter,
+progress {
+  width: 100%;
+}
+
+.styled progress {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  height: 10px;
+
+  /* Firefox */
+  border: none;
+  background: #EEE;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+}
+
+.styled progress::-webkit-progress-bar {
+  background: #EEE;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+}
+
+.styled progress::-webkit-progress-value {
+  background-color: #CC0000;
+  border-radius: 3px;
+}
+
+.styled progress::-moz-progress-bar {
+  background-color: #CC0000;
+  border-radius: 3px;
+}
+
+
+
+
+.styled meter {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  height: 10px;
+  
+  /* For Firefox */
+  background: #EEE;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+}
+
+/* WebKit */
+.styled meter::-webkit-meter-bar {
+  background: #EEE;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+  border-radius: 3px;
+}
+
+.styled meter::-webkit-meter-optimum-value,
+.styled meter::-webkit-meter-suboptimum-value,
+.styled meter::-webkit-meter-even-less-good-value {
+  border-radius: 3px;
+}
+
+.styled meter::-webkit-meter-optimum-value {
+  background: #86CC00;
+}
+
+.styled meter::-webkit-meter-suboptimum-value {
+  background: #FFDB1A;
+}
+
+.styled meter::-webkit-meter-even-less-good-value  {
+  background: #CC4600;
+}
+
+
+/* Firefox */
+.styled meter::-moz-meter-bar {
+  border-radius: 3px;
+}
+
+.styled meter:-moz-meter-optimum::-moz-meter-bar {
+  background: #86CC00;
+}
+
+.styled meter:-moz-meter-sub-optimum::-moz-meter-bar {
+  background: #FFDB1A;
+}
+
+.styled meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+  background: #CC4600;
+}
+
+/*	==================================================
+	Star Rating
+	================================================== */
+
+.rating-box {
+  position:relative;
+  vertical-align: middle;
+  font-size: 1em;
+  font-family: FontAwesome, "NanumSquare";
+  display:inline-block;
+  color: #F68127;
+}
+.rating-box:before{
+    content: "\f006 \f006 \f006 \f006 \f006";
+  }
+.rating-box .rating {
+    position: absolute;
+    left:0;
+    top:0;
+    white-space:nowrap;
+    overflow:hidden;
+    color: #F68127;
+  }
+  .rating-box .rating:before {
+      content: "\f005 \f005 \f005 \f005 \f005";
+    }
+}
+
+/*	==================================================
+	Flex Container
+	================================================== */
+
+.table-comp {
+	width: 100%;
+	margin-bottom: 0rem;
+	background-color: transparent; 
+}
+
+.table-comp th,
+.table-comp td {
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+	font-family: "NanumSquare";
+	font-weight: 400;
+	font-size: 0.7rem;
+	line-height: 1.25;
+	text-align: center;
+	vertical-align: center;
+	border: 0.1px solid #dee2e6;
+}
+
+.th-compimg {
+	padding-top: 0	!important;
+	padding-bottom: 0 !important;
+}
+
+.img-comp{
+	position: relative;
+	margin: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.fa-check {
+  color: green;
+}
+.fa-remove {
+  color: red;
+}
+.fa-question {
+  color: gray;
+}
+
+.p-tablecap {
+	font-family: "Nanum Myeongjo";
+	font-size: 0.6rem;
+	text-align: right;
+	margin-top: 2px;
+}
+.p-warning{
+	font-family: "Nanum Myeongjo";
+	font-size: 0.8rem;
+	text-align: left;
+	margin-top: 2px;
+}
+.p-market{
+	font-family: "NanumSquare";
+	font-size: 0.6rem;
+	text-align: center;
+	margin-top: 2px;
+	border: 0.5px solid #F2F2F2;
+}
+
+.span-hline {
+	border-bottom: 2px solid #B4E7F8;
+	box-shadow: inset 0 -6px 0 #B4E7F8;
+}
+.p-newstitle {
+  	margin-bottom: 0;
+}
+.a-newstitle
+	a, a:link, a:visited {
+		target: _blank;
+		color: #ff0266;
+		font-weight: 700;
+		font-size: 1.1rem;
+	}
+	a:hover{
+	    color: #03a87c;
+	}
+}
