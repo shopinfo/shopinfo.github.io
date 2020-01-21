@@ -768,6 +768,7 @@ pre {
     max-width: 25%; }
   .col-md-4 {
     flex: 0 0 33.33333%;
+    margin-right:8px;
     max-width: 33.33333%; }
   .col-md-5 {
     flex: 0 0 41.66667%;
@@ -5924,6 +5925,7 @@ button.bg-lightblue:focus {
   width: 75% !important; }
 
 .w-100 {
+  border-radius:3px;
   width: 100% !important; }
 
 .w-auto {

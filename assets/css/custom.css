@@ -205,13 +205,13 @@ progress {
 }
 .p-newstitle {
   	margin-bottom: 0;
+	font-size: 1.1rem;
+	font-weight: 700;
 }
 .a-newstitle
 	a, a:link, a:visited {
 		target: _blank;
-		color: #ff0266;
-		font-weight: 700;
-		font-size: 1.1rem;
+		color: #03a87c;
 	}
 	a:hover{
 	    color: #03a87c;
