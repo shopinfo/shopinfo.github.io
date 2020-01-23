@@ -5926,7 +5926,7 @@ button.bg-lightblue:focus {
 
 .w-100 {
   border-radius:3px;
-  width: 100% !important; }
+  width: 98% !important; }
 
 .w-auto {
   width: auto !important; }
@@ -7689,8 +7689,8 @@ html {
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
   .col-md-8 {
-    flex: 0 0 66.66667%;
-    max-width: 66.66667%; }
+    flex: 0 0 65.00000%;
+    max-width: 65.00000%; }
   .col-md-9 {
     flex: 0 0 75%;
     max-width: 75%; }
